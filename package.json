@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start:prod": "set NODE_ENV=production && node ./src/server.mjs",
+    "start:prod": "set NODE_ENV=production&&node ./src/server.mjs",
     "start:dev": "nodemon ./src/server.mjs",
     "test": "newman run notes-api-test.postman_collection.json --environment notes-api-test.postman_environment.json",
     "lint": "eslint ./src"
