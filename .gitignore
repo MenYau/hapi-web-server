@@ -1,3 +1,7 @@
 node_modules
 hapi-web-server.pem
 Github token.txt
+admin_credentials.csv
+notes-api-test.postman_collection.json
+notes-api-test.postman_environment.json
+notes-api-webserver.pem
